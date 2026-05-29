@@ -20,6 +20,12 @@ The code supports the following main tasks:
 
 The mapping framework is based on the idea that ionospheric disturbance observations should only be shown where GNSS observations are available. This avoids filling data gaps through interpolation and makes the resulting maps more transparent in regions with sparse or uneven receiver coverage.
 
+
+## Data
+
+Large raw GNSS data files are not included in this repository. This includes SP3 orbit files and ISMR receiver files. The expected data structure is described in `data/README.md`.
+
+The notebooks use relative paths and should not contain local absolute paths such as `C:\Users\...`.
 ## Repository structure
 
 ```text
@@ -41,8 +47,3 @@ bachelor-gnss-ionosphere-code/
 └── data/
     └── README.md
 
-## Data
-
-Large raw GNSS data files are not included in this repository. This includes SP3 orbit files and ISMR receiver files. The expected data structure is described in `data/README.md`.
-
-The notebooks use relative paths and should not contain local absolute paths such as `C:\Users\...`.
