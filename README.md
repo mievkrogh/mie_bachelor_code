@@ -1,6 +1,3 @@
-# mie_bachelor_code
-Python code for bachelor project on grid-based mapping of ionospheric disturbances in the Arctic using GNSS data.
-
 # Bachelor Project Code: GNSS-Based Ionospheric Disturbance Mapping in the Arctic
 
 This repository contains Python code developed for a bachelor project on grid-based mapping of space-weather-related ionospheric disturbances in the Arctic using GNSS observations.
@@ -38,10 +35,14 @@ bachelor-gnss-ionosphere-code/
 │   └── sp3_spline.py
 │   └── ismr_files.py
 │   └── get_stations.py
-    
 ├── notebooks/
 │   └── ipp_october_n_chain.ipynb
 │   └── ipp_pipeline.ipynb
-
 └── data/
     └── README.md
+
+## Data
+
+Large raw GNSS data files are not included in this repository. This includes SP3 orbit files and ISMR receiver files. The expected data structure is described in `data/README.md`.
+
+The notebooks use relative paths and should not contain local absolute paths such as `C:\Users\...`.
