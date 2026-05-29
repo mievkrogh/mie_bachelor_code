@@ -26,6 +26,14 @@ The mapping framework is based on the idea that ionospheric disturbance observat
 Large raw GNSS data files are not included in this repository. This includes SP3 orbit files and ISMR receiver files. The expected data structure is described in `data/README.md`.
 
 The notebooks use relative paths and should not contain local absolute paths such as `C:\Users\...`.
+
+
+## How to use
+
+The main processing workflow is demonstrated in the notebooks in the `notebooks/` folder. The functions used for reading input data, computing IPP locations, assigning observations to grid cells, calculating disturbance indices and producing visualisations are stored in the `Functions/` folder.
+
+Large input data files are not included. To run the notebooks, the required SP3 and ISMR files must be placed according to the structure described in `data/README.md`.
+
 ## Repository structure
 
 ```text
@@ -47,4 +55,10 @@ bachelor-gnss-ionosphere-code/
 │   └── Design_2D_gridd.ipynb
 └── data/
     └── README.md
+```
+## Author
 
+Mie Vassard Krogh  
+Bachelor project, Geophysics and Space Technology  
+Technical University of Denmark, DTU Space  
+2026
