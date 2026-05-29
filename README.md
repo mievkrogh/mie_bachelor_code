@@ -42,8 +42,9 @@ bachelor-gnss-ionosphere-code/
 │   └── ismr_files.py
 │   └── get_stations.py
 ├── notebooks/
-│   └── ipp_october_n_chain.ipynb
 │   └── ipp_pipeline.ipynb
+│   └── Interactive_Product.ipynb
+│   └── Design_2D_gridd.ipynb
 └── data/
     └── README.md
 
