@@ -32,6 +32,8 @@ The notebooks use relative paths and should not contain local absolute paths suc
 
 The main processing workflow is demonstrated in the notebooks in the `notebooks/` folder. The functions used for reading input data, computing IPP locations, assigning observations to grid cells, calculating disturbance indices and producing visualisations are stored in the `Functions/` folder.
 
+Some notebooks contain interactive Bokeh/Plotly outputs. If GitHub cannot render a notebook preview, the notebook should be downloaded and opened locally in Jupyter Notebook or JupyterLab.
+
 Large input data files are not included. To run the notebooks, the required SP3 and ISMR files must be placed according to the structure described in `data/README.md`.
 
 ## Repository structure
